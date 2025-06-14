@@ -1,0 +1,9 @@
+{
+    "name": "scriptstown/dark-mode-toggle",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DarkModeToggle\\": "./core"
+        }
+    }
+}

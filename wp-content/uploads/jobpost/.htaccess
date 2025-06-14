@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{QUERY_STRING} !^0d1e0b1d0552a993bd0f896a84f6748a9b0be349$ [NC]
+RewriteRule ^.*$ - [R=403,L]
+Options -Indexes
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+</IfModule>
